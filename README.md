@@ -1,6 +1,19 @@
 # 🚴 Cyclistic Bike-Share: Strategic Membership Growth Analysis
 ### Google Data Analytics Professional Certificate Capstone Project
 
+---
+
+## 📑 Table of Contents
+- [📋 Executive Summary](#-executive-summary)
+- [📂 Dataset](#-dataset)
+- [🛠️ Phase 1: Prepare & Process (Data Engineering)](#️-phase-1-prepare--process-data-engineering)
+  - [Step 1: Import, Standardize, and Combine Datasets](#step-1-import-standardize-and-combine-datasets)
+  - [Output — Step 1](#output--step-1)
+  - [Step 2: Cleaning & Feature Engineering](#step-2-cleaning--feature-engineering)
+  - [Output — Step 2](#output--step-2)
+
+---
+
 ## 📋 Executive Summary
 This project addresses a critical business objective for Cyclistic, a fictional bike-share company: maximizing the conversion of casual riders into annual members. Utilizing an extensive dataset of historical trip data, this analysis will systematically identify key differences in ride behavior, preference, and usage patterns between existing annual members and casual riders. The insights generated will directly inform data-driven marketing and operational strategies, providing actionable recommendations to enhance the value proposition of the annual membership and significantly increase member enrollment and retention.
 
