@@ -6,7 +6,7 @@
 ## 📑 Table of Contents
 - [📋 Executive Summary](#-executive-summary)
 - [📂 Dataset](#-dataset)
-- [🛠️ Phase 1: Prepare & Process (Data Engineering)](##-phase-1-:-prepare--process-data-engineering)
+- [🛠️ Phase 1: Prepare & Process (Data Engineering)](#-phase-1-prepare--process-data-engineering)
   - [Step 1: Import, Standardize, and Combine Datasets](###step-1-import-standardize-and-combine-datasets)
   - [Output — Step 1](#output--step-1)
   - [Step 2: Cleaning & Feature Engineering](#step-2-cleaning--feature-engineering)
