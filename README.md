@@ -3,14 +3,28 @@
 
 ---
 
-## 📑 Table of Contents
-- [📋 Executive Summary](#-executive-summary)
-- [📂 Dataset](#-dataset)
-- [🛠️ Phase 1: Prepare & Process (Data Engineering)](#-phase-1-prepare--process-data-engineering)
-  - [Step 1: Import, Standardize, and Combine Datasets](###step-1-import-standardize-and-combine-datasets)
-  - [Output — Step 1](#output--step-1)
-  - [Step 2: Cleaning & Feature Engineering](#step-2-cleaning--feature-engineering)
-  - [Output — Step 2](#output--step-2)
+## 📜 Table of Contents
+
+* [🌟 Executive Summary](#-executive-summary)
+* [📂 Data Source](#-data-source)
+* [🛠️ Phase 1: Data Engineering (Prepare & Process)](#️-phase-1-data-engineering-prepare--process)
+    * [1.1 Import, Standardize, and Combine Datasets](#11-import-standardize-and-combine-datasets)
+    * [1.2 Cleaning & Feature Engineering](#12-cleaning--feature-engineering)
+* [📈 Phase 2: Exploratory Data Analysis (Analyze & Visualize)](#-phase-2-exploratory-data-analysis-analyze--visualize)
+    * [2.1 Descriptive Statistics by User Type](#21-descriptive-statistics-by-user-type)
+    * [2.2 Number of Drives by Day of the Week](#22-number-of-drives-by-day-of-the-week)
+    * [2.3 Average Driving Time by Day of the Week](#23-average-driving-time-by-day-of-the-week)
+    * [2.4 Hourly Usage Trend (Peak Hours)](#24-hourly-usage-trend-peak-hours)
+    * [2.5 Ride Count Comparison by Membership Type](#25-ride-count-comparison-by-membership-type)
+    * [2.6 Usage Comparison by Day of the Week (Detailed)](#26-usage-comparison-by-day-of-the-week-detailed)
+    * [2.7 Comparison of Average Driving Times (Detailed)](#27-comparison-of-average-driving-times-detailed)
+    * [2.8 Hourly Usage Trend (Detailed View)](#28-hourly-usage-trend-detailed-view)
+* [📝 Final Recommendations](#-final-recommendations)
+    * [Strategy: Converting Casual Riders into Annual Members](#strategy-converting-casual-riders-into-annual-members)
+        * [✔ 1. Develop and Promote Weekend & Leisure-Based Membership Products](#-1-develop-and-promote-weekend--leisure-based-membership-products)
+        * [✔ 2. Launch Data-Driven Marketing Campaigns During Peak Casual Usage Times](#-2-launch-data-driven-marketing-campaigns-during-peak-casual-usage-times)
+        * [✔ 3. Improve Convenience and Infrastructure at High-Casual Stations](#-3-improve-convenience-and-infrastructure-at-high-casual-stations)
+* [✅ Summary: Strategic Opportunities for Growth](#-summary-strategic-opportunities-for-growth)
 
 ---
 
@@ -262,7 +276,7 @@ trips %>%
   arrange(usertype, day_name)
 ```
 
-# Step 3 Output
+### Step 3 Output
 ```r
 `summarise()` has grouped output by 'usertype'. You can override using the `.groups` argument.
 # A tibble: 28 × 3
